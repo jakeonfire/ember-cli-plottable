@@ -4,6 +4,12 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'dummy',
     environment: environment,
+    contentSecurityPolicy: {
+      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' http://*:35729",
+      'font-src': "'self' http://fonts.gstatic.com",
+      'connect-src': "'self' *",
+      'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com",
+    },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
