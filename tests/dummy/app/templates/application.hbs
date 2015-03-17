@@ -1,8 +1,9 @@
-<h2 id="title">Welcome to Ember.js</h2>
-
 <svg id="example"></svg>
 
-<script>var data   = [
+{{outlet}}
+
+<script>
+var data   = [
   {name: "Verne Troyer",      height: 81},
   {name: "Olson Twins",       height: 152},
   {name: "Miley Cyrus",       height: 165},
@@ -35,6 +36,5 @@ new Plottable.Component.Table([
   [yLabel, yAxis, lines.merge(plot)],
   [null,    null, xAxis]
 ])
-.renderTo("svg#example");</script>
-
-{{outlet}}
+.renderTo("svg#example");
+</script>
