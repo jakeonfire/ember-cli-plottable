@@ -1,4 +1,4 @@
-# Plottable.js for Ember CLI
+# Plottable.js for Ember CLI [![Build Status](https://travis-ci.org/karelvuong/ember-cli-plottable.svg)](https://travis-ci.org/karelvuong/ember-cli-plottable)
 
 This README outlines the details of collaborating on this Ember addon.
 
