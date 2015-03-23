@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'dummy',
+    podModulePrefix: 'dummy/pods',
     environment: environment,
     contentSecurityPolicy: {
       'script-src': "'self' 'unsafe-inline' 'unsafe-eval' http://*:35729",
