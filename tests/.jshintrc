@@ -6,6 +6,7 @@
     "setTimeout",
     "$",
     "-Promise",
+    "Plottable",
     "define",
     "console",
     "visit",
